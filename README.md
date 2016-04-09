@@ -1,4 +1,4 @@
-# Truth-table
+# table panel
 truth table program
 
 import javax.swing.*;
