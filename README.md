@@ -122,6 +122,13 @@ public class TablePanel extends JPanel {
 			 if (buttonX == close){
 				 eq.setText(eq.getText() + ")");
 			 }
+			  if (buttonX == back){
+				 if(eq.getText() != null)
+				 {
+					 String eq1 = eq.getText();
+					 eq.setText(eq1.substring(0, eq1.length()-1));	 
+				 }
+			 }
 			if (buttonX == reset){
 				eq.setText(null);
 			}
